@@ -1,0 +1,59 @@
+@charset "UTF-8";
+textarea, input[type="url"], input[type="email"], input[type="number"], input[type="upload"] {
+	border-color: #DFDFDF;
+	background-color: white;
+	border-width: 1px;
+	border-style: solid;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.red-border:hover {
+	border-color: red!important;
+}
+
+input.regular-text {
+	width: 25em;
+}
+
+input.regular-number {
+	width: 10em;
+}
+
+.slider {		
+	width:20em;
+}
+
+.pad {
+	margin-top: 20px;
+}
+
+.colorpicker {
+	background-color: white;
+	bottom: 30px;
+	border:1px solid #888;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	height: 230px;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px #888;
+	-ms-box-shadow: 0 0 5px #888;
+	-o-box-shadow: 0 0 5px #888;
+	box-shadow: 0 0 5px #888;
+}
+.color-picker-title {
+	display:block;
+	margin-bottom:5px; 
+	background-color:#000; 
+	color:#fff; 
+	width:195px;
+	padding: 2px 0 2px 5px;
+}
